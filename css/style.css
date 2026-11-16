@@ -123,8 +123,8 @@ code{font-family:ui-monospace,"Cascadia Code",Consolas,monospace;font-size:.85em
   /* reuse .scene--screen grid from scenes.css when both classes apply;
      also declare here so landing works even if load order shifts */
   width:100%;
-  height:100svh;height:100vh;
-  min-height:100svh;min-height:100vh;
+  height:100vh;height:100svh;
+  min-height:100vh;min-height:100svh;
   display:grid;
   grid-template-columns:var(--hero-safe-side,11%) minmax(0,1fr) var(--hero-safe-side,11%);
   grid-template-rows:var(--hero-safe-top,22%) minmax(0,1fr) var(--hero-safe-bottom,16%);
