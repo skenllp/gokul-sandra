@@ -1481,6 +1481,8 @@ body.finale-particles .finale-fallback{opacity:0}
   .scene--hero.loaded.text-ready > .scroll-indicator{
     opacity:1;transform:none;
   }
+  .scene--hero > .scroll-indicator,
+  .scene--hero.loaded.text-ready > .scroll-indicator{transform:translateX(-50%)}
 }
 @media (prefers-contrast:more){
   .sec-note,.fact-s,.tl-text,.card p{color:#4A362A}
